@@ -30,6 +30,17 @@ public class Zombie {
         this.conversions_5 = conversions_5;
     }
 
+    
+    public Zombie(String name, int yearOfconversion) {
+        this.name = name;
+        this.yearOfconversion = yearOfconversion;
+        this.level = 0;
+        this.conversions_1 = 0;
+        this.conversions_2 = 0;
+        this.conversions_3 = 0;
+        this.conversions_4 = 0;
+        this.conversions_5 = 0;
+    }
     public Zombie() {
     }
 
