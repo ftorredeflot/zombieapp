@@ -108,10 +108,43 @@ public class Zombie {
     public void setConversions_5(int conversions_5) {
         this.conversions_5 = conversions_5;
     }
+    
+    public int mejorAnyo(){
+       
 
+        int min = 0;
+       int year=0;
+
+        if (conversions_1 > min) {
+          min = conversions_1;
+          year=1;
+        } 
+        if (conversions_2 > min) {
+          min = conversions_2;
+          year=2;
+        } 
+        if (conversions_3 > min) {
+          min = conversions_3;
+          year=3;
+        } 
+        if (conversions_4 > min) {
+          min = conversions_4;
+          year=4;
+        } 
+        if (conversions_5 > min) {
+          min = conversions_5;
+          year=5;
+        } 
+        return year;
+    }
+
+    
+    
     @Override
     public String toString() {
         return "Zombie{" + "name=" + name + ", yearOfconversion=" + yearOfconversion + ", level=" + level + ", conversions_1=" + conversions_1 + ", conversions_2=" + conversions_2 + ", conversions_3=" + conversions_3 + ", conversions_4=" + conversions_4 + ", conversions_5=" + conversions_5 + '}';
     }
+    
 
 }
+

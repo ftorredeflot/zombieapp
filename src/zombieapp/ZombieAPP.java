@@ -39,7 +39,7 @@ public class ZombieAPP {
         System.out.println("nuevo zombie " + z2.toString());
 
         System.out.println(" Hola, soy “nombre del zombie”, tengo " + (yeara - z1.getYearOfconversion()) + "  años de conversión y me quedan " + (5 - (yeara - z1.getYearOfconversion())) + " años para convertirme en una bonita flor.");
-
+        System.out.println("el mejor anyo del Zombie2 es:"+z2.mejorAnyo());
     }
 
 }
