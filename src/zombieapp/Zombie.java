@@ -10,14 +10,15 @@ package zombieapp;
  * @author ferran
  */
 public class Zombie {
+
     private String name;
     private int yearOfconversion;
     private int level;
-    private int  conversions_1;
-    private int  conversions_2;
-    private int  conversions_3;
-    private int  conversions_4;
-    private int  conversions_5;
+    private int conversions_1;
+    private int conversions_2;
+    private int conversions_3;
+    private int conversions_4;
+    private int conversions_5;
 
     public Zombie(String name, int yearOfconversion, int level, int conversions_1, int conversions_2, int conversions_3, int conversions_4, int conversions_5) {
         this.name = name;
@@ -30,7 +31,6 @@ public class Zombie {
         this.conversions_5 = conversions_5;
     }
 
-    
     public Zombie(String name, int yearOfconversion) {
         this.name = name;
         this.yearOfconversion = yearOfconversion;
@@ -41,6 +41,7 @@ public class Zombie {
         this.conversions_4 = 0;
         this.conversions_5 = 0;
     }
+
     public Zombie() {
     }
 
@@ -113,5 +114,4 @@ public class Zombie {
         return "Zombie{" + "name=" + name + ", yearOfconversion=" + yearOfconversion + ", level=" + level + ", conversions_1=" + conversions_1 + ", conversions_2=" + conversions_2 + ", conversions_3=" + conversions_3 + ", conversions_4=" + conversions_4 + ", conversions_5=" + conversions_5 + '}';
     }
 
-  
 }
