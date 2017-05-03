@@ -166,6 +166,16 @@ public class Zombie {
         if(this.level>=7){es="Si";}
         return es;
     }
+    
+    public String haconvertido(){
+        String es="No";
+        int n=this.maxConversiones();
+        //System.out.println(n);
+        if(n>0){es="Si";}
+        return es;
+    }
+    
+    
 
     @Override
     public String toString() {
