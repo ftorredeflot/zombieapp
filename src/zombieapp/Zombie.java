@@ -175,7 +175,57 @@ public class Zombie {
         return es;
     }
     
+    public double mediaConvesiones(){ 
+        int yeara = 2017-this.yearOfconversion;
+        double media=0;
+        switch (yeara){
+            case 1:
+                media=(this.conversions_1)/yeara;
+            break;
+            case 2:
+                media=(this.conversions_1+this.conversions_2)/yeara;
+            break;
+            case 3:
+                media=(this.conversions_1+this.conversions_2+this.conversions_3)/yeara;
+            break;
+            case 4:
+                media=(this.conversions_1+this.conversions_2+this.conversions_3+this.conversions_4)/yeara;
+            break;
+            case 5:
+                media=(this.conversions_1+this.conversions_2+this.conversions_3+this.conversions_4+this.conversions_5)/yeara;
+            break;
+            default:
+             media=0;
+            break;
+        }
+        return media;
+    }
     
+    public int totalConversions(){
+          int yeara = 2017-this.yearOfconversion;
+        int tc=0;
+        switch (yeara){
+            case 1:
+                tc=this.conversions_1;
+            break;
+            case 2:
+                tc=this.conversions_1+this.conversions_2;
+            break;
+            case 3:
+                tc=this.conversions_1+this.conversions_2+this.conversions_3;
+            break;
+            case 4:
+                tc=this.conversions_1+this.conversions_2+this.conversions_3+this.conversions_4;
+            break;
+            case 5:
+                tc=this.conversions_1+this.conversions_2+this.conversions_3+this.conversions_4+this.conversions_5;
+            break;
+            default:
+             tc=0;
+            break;
+        }
+        return tc;
+    }
 
     @Override
     public String toString() {
