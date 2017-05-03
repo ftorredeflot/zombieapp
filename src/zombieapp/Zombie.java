@@ -158,6 +158,14 @@ public class Zombie {
         return nc;
 
     }
+    
+    public String esJefe(){
+        String es="N"
+                + "o";
+        //System.out.println(this.level);
+        if(this.level>=7){es="Si";}
+        return es;
+    }
 
     @Override
     public String toString() {
