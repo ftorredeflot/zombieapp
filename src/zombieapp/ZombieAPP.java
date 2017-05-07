@@ -40,7 +40,7 @@ public class ZombieAPP {
         Zombie z2 = new Zombie(nzombie, yearofc,level, year1, year2, year3, year4, year5);
         System.out.println("nuevo zombie " + z2.toString());
 
-        System.out.println(" Hola, soy “nombre del zombie”, tengo " + (yeara - z1.getYearOfconversion()) + "  años de conversión y me quedan " + (5 - (yeara - z1.getYearOfconversion())) + " años para convertirme en una bonita flor.");
+        System.out.println(" Hola, soy "+z1.getName()+", tengo " + (yeara - z1.getYearOfconversion()) + "  años de conversión y me quedan " + (5 - (yeara - z1.getYearOfconversion())) + " años para convertirme en una bonita flor.");
         //System.out.println("el mejor anyo del Zombie2 es:"+z2.mejorAnyo()+" i el numero de conversiones es "+z2.maxConversiones());
         //System.out.println("es jefe: "+z2.esJefe());
         //System.out.println("es ha convertido: "+z2.haconvertido());
